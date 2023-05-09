@@ -1,0 +1,93 @@
+// make background black
+.grafana-app {
+    background-color: #000000;
+}
+
+// panel title background to grey, align text left when a title is given
+.panel-title:has(> .css-1ejir9x:not(:empty)) {
+    background-color: #393939; 
+    justify-content: flex-start; 
+}
+
+// transparent background [does this work?]
+.panel-title--transparent{
+    background-color: #0000;
+}
+
+// add 1px border with radius in same color as panel title to round edges
+.panel-container {
+    //background-color: #fff;
+    border: 1px solid #393939;
+    border-radius: 3px;
+}
+
+// remove dashboard title background 
+.panel-container--transparent {
+    background-color: #0000;
+    border: 1px solid #0000;
+    box-shadow: none;
+} 
+
+// title formatting
+.css-1ejir9x {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #ffffff;
+}
+
+// table text styling
+.css-1w5pd0q {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+// table padding 
+.css-1oun0v9-cellContainerOverflow {
+    padding: 8px;
+}
+// table row border: 
+.css-fivx7f-row {
+    border-bottom: 0px solid rgba(36, 41, 46, 0.12);
+}
+
+// table column border:
+.css-1g4rxm2-cellContainerOverflow {
+    padding: 6px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-right: 0px solid rgba(36, 41, 46, 0.12);
+    color: rgb(0, 0, 0);
+    background-clip: padding-box;
+}
+
+// alternating grey row
+.css-fivx7f-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+// change hover color to white
+.css-fivx7f-row:hover {
+    background-color: #FFFFFF;
+}
+
+// Table header alignment
+.css-vgcigv {
+    padding: 6px;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+    background-color: rgb(92, 88, 88);
+}
+
+// table header format
+.css-1xdjzer {
+    font-size: 1.4rem;
+    overflow: hidden;
+    font-weight: 500;
+    margin-right: 0px
+    color: #FFFFFF
+}
