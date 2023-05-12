@@ -1,6 +1,6 @@
 // make background black
 .grafana-app {
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 // panel title background to grey, align text left when a title is given
